@@ -23,3 +23,8 @@ function search() {
         }
     }
 }
+document.getElementById("keyword").addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        search();
+    }
+});
