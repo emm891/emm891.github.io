@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>纯净软件园</title>
+        <style>
+            h1{
+                text-align: center;
+                color:rgb(14, 172, 148)
+            }
+            body{
+                font-family: "kaiti";
+            }
+
+
+            .search{
+                text-align: center;
+                width: 100%;
+                button{
+                    width: 100px;
+                    height: 37px;
+                    border-radius: 10px;
+                    border: 1px solid green;
+                    background-color:aqua;
+                    color: white;
+                    font-size: 16px;
+                }
+                input{
+                    width: 300px;
+                    height: 30px;
+                    border-radius: 10px;
+                    border: 1px solid green;
+                    padding: 3px;
+                }
+            }
+            .note{
+                text-align: center;
+                color: gray;
+                font-size: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>纯净软件园</h1>
+        <div class="search">
+            <input type="text" id="keyword" placeholder="搜索软件">
+            <button type="button" onclick="search()">搜索</button>
+        </div>
+        <p class="note">这个网站还不成熟，界面或多或少有点简陋，敬请谅解</p>
+        <script src="search.js"></script>
+    </body>
+</html>
