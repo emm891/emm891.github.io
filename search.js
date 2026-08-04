@@ -6,6 +6,7 @@ const app_item=[
     { name: "火狐浏览器", url:"apps/firefox/firefox.html" },
     { name: "qq", url:"apps/qq/qq.html" },
     { name: "微信", url:"apps/wechat/wechat.html" },
+    { name: "腾讯视频", url:"apps/tencent_video/tencent_video.html" },
 ]
 function search() {
     const keyword = document.getElementById("keyword").value.trim().toLowerCase();
