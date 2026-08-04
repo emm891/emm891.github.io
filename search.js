@@ -7,6 +7,7 @@ const app_item=[
     { name: "qq", url:"apps/qq/qq.html" },
     { name: "微信", url:"apps/wechat/wechat.html" },
     { name: "腾讯视频", url:"apps/tencent_video/tencent_video.html" },
+    { name: "抖音", url:"apps/douyin/douyin.html" },
 ]
 function search() {
     const keyword = document.getElementById("keyword").value.trim().toLowerCase();
