@@ -7,22 +7,32 @@ body{
 }
 .search{
     text-align: center;
-    width: 100%;
+    width: 320px;
+    height: 40px;
+    display: flex;
+    border: 1px solid green;
+    border-radius: 10px;
+    overflow: hidden;
+    margin:10px auto;
     button{
         width: 100px;
-        height: 37px;
-        border-radius: 10px;
-        border: 1px solid green;
+        height: 40px;
+        border:none;
+        outline:none;
+        padding:0 20px;
         background-color:aqua;
         color: white;
         font-size: 16px;
+        cursor: pointer;
     }
     input{
+        flex: 1;
         width: 300px;
-        height: 30px;
-        border-radius: 10px;
-        border: 1px solid green;
-        padding: 3px;
+        height: 40px;
+        border:none;
+        outline:none;
+        padding: 0 16px;
+        font-size: 16px;
     }
 }
 .note{
