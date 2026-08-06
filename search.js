@@ -8,6 +8,8 @@ const app_item=[
     { name: "微信", url:"apps/wechat/wechat.html" },
     { name: "腾讯视频", url:"apps/tencent_video/tencent_video.html" },
     { name: "抖音", url:"apps/douyin/douyin.html" },
+    { name: "360驱动大师", url:"apps/360drv/360drv.html" },
+    { name: "360安全卫士", url:"apps/360safe/360safe.html" },
 ]
 function search() {
     const keyword = document.getElementById("keyword").value.trim().toLowerCase();
