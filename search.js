@@ -1,7 +1,7 @@
 const app_item=[
     { name: "哔哩哔哩", url:"apps/bilibili/bilibili.html" },
     { name: "bilibili", url:"apps/bilibili/bilibili.html" },
-    { name: "mozilia firefox", url:"apps/firefox/firefox.html" },
+    { name: "mozilla firefox", url:"apps/firefox/firefox.html" },
     { name: "firefox", url:"apps/firefox/firefox.html" },
     { name: "火狐浏览器", url:"apps/firefox/firefox.html" },
     { name: "qq", url:"apps/qq/qq.html" },
