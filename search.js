@@ -10,6 +10,10 @@ const app_item=[
     { name: "抖音", url:"apps/douyin/douyin.html" },
     { name: "360驱动大师", url:"apps/360drv/360drv.html" },
     { name: "360安全卫士", url:"apps/360safe/360safe.html" },
+    { name: "360杀毒", url:"apps/360sd/360sd.html" },
+    { name: "360安全浏览器", url:"apps/360se/360se.html" },
+    { name: "360浏览器", url:"apps/360se/360se.html" },
+    { name: "360极速浏览器", url:"apps/360cse/360cse.html" },
 ]
 function search() {
     const keyword = document.getElementById("keyword").value.trim().toLowerCase();
