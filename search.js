@@ -16,6 +16,7 @@ const app_item=[
     { name: "360极速浏览器", url:"apps/360cse/360cse.html" },
     { name: "酷狗音乐", url:"apps/kgmusic/kgmusic.html" },
     { name: "qq音乐", url:"apps/qqmusic/qqmusic.html" },
+    { name: "网易云音乐", url:"apps/neteasecloudmusicc/music.html" },
 ]
 function search() {
     const keyword = document.getElementById("keyword").value.trim().toLowerCase();
