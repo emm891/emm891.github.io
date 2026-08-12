@@ -17,6 +17,8 @@ const app_item=[
     { name: "酷狗音乐", url:"apps/kgmusic/kgmusic.html" },
     { name: "qq音乐", url:"apps/qqmusic/qqmusic.html" },
     { name: "网易云音乐", url:"apps/neteasecloudmusicc/music.html" },
+    { name: "wps", url:"apps/wps/wps.html" },
+    { name: "wps office", url:"apps/wps/wps.html" },
 ]
 function search() {
     const keyword = document.getElementById("keyword").value.trim().toLowerCase();
