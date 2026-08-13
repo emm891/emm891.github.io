@@ -1,24 +1,35 @@
-.download{
-    margin-top: 20px;
-    background-color: yellowgreen;
-    border-radius: 10px;
-    padding: 10px;
-    a{
-        margin-top: 10px;
-        color: white;
-        background-color: orange;
-        text-decoration: none;
-        border-radius: 10px;
-        padding: 1px;
-        border: 1px solid white;
-    }
+.container{
+    height: 100vh;
+    display: flex;
 }
+
 .app_info{
+    flex: 0.6;
     .app_name{
         font-size: 50px;
         font-weight: bold;
     }
+    .download{
+        margin-top: 20px;
+        background-color: yellowgreen;
+        border-radius: 10px;
+        padding: 10px;
+        a{
+            margin-top: 10px;
+            color: white;
+            background-color: orange;
+            text-decoration: none;
+            border-radius: 10px;
+            padding: 1px;
+            border: 1px solid white;
+        }
+    }
 }
+.app_introduction{
+    flex: 1;
+    border-left: 1px solid black;
+}
+
 body{
     font-family: "kaiTi","STKaiti","AR PL UKai CN";
 }
