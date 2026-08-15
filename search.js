@@ -19,6 +19,8 @@ const app_item=[
     { name: "网易云音乐", url:"apps/neteasecloudmusicc/music.html" },
     { name: "wps", url:"apps/wps/wps.html" },
     { name: "wps office", url:"apps/wps/wps.html" },
+    { name: "应用宝", url:"apps/yyb/yyb.html" },
+    { name: "腾讯应用宝", url:"apps/yyb/yyb.html" }
 ]
 function search() {
     const keyword = document.getElementById("keyword").value.trim().toLowerCase();
